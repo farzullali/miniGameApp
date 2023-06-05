@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "miniGameApp",
+    "name": "Game",
     "slug": "miniGameApp",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "orientation": "default",
+    "icon": "./public/assets/images/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./public/assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,13 +21,20 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./public/assets/images/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.minigame.minigame"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./public/assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d60fb949-7842-44e1-a059-42369c63d5b8"
+      }
     }
   }
 }
